@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZWo-zu-EgP">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--黨-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="___" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lrY-3z-Rrd">
+                                <frame key="frameInset" minX="164" minY="151" width="46" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="紅">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1px-jc-L88" kind="show" id="3lo-MR-toT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EdO-kj-f7n">
+                                <frame key="frameInset" minX="255" minY="151" width="46" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="綠">
+                                    <color key="titleColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ggY-y9-4kz" kind="show" id="7Gx-aW-212"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2fp-Ng-KKy">
+                                <frame key="frameInset" minX="82" minY="152" width="38" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="藍"/>
+                                <connections>
+                                    <segue destination="rIn-Ts-IAN" kind="show" id="rEc-1O-PHE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="黨" id="b5B-xR-EGy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1839.1304347826087" y="381.52173913043481"/>
+        </scene>
+        <!--國民黨-->
+        <scene sceneID="5Sl-f3-3OS">
+            <objects>
+                <viewController id="rIn-Ts-IAN" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kzs-yS-mov"/>
+                        <viewControllerLayoutGuide type="bottom" id="9sG-qg-eAx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VSG-3E-0Yk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilH-y0-XtZ">
+                                <frame key="frameInset" minX="172" minY="188" width="30" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="橘">
+                                    <color key="titleColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="TRR-sv-Gpq" kind="show" id="d6r-cy-C1F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="國民黨" id="SL1-g4-D16">
+                        <barButtonItem key="rightBarButtonItem" title="投票" id="hLS-Xm-472">
+                            <connections>
+                                <segue destination="7eN-to-tWH" kind="show" id="4tJ-yP-Bpt"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="A9a-MU-dd0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2655.072463768116" y="381.52173913043481"/>
+        </scene>
+        <!--中共-->
+        <scene sceneID="Jda-uG-9LK">
+            <objects>
+                <viewController id="1px-jc-L88" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="K1i-lX-d3I"/>
+                        <viewControllerLayoutGuide type="bottom" id="daQ-ng-tbl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fWl-qv-oLL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="中共" id="9OY-Zc-Pbe">
+                        <barButtonItem key="rightBarButtonItem" title="投票" id="oGJ-PL-FHJ">
+                            <connections>
+                                <segue destination="7eN-to-tWH" kind="show" id="KP7-E3-IxH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CwI-h7-rKZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3442.0289855072465" y="381.52173913043481"/>
+        </scene>
+        <!--政客-->
+        <scene sceneID="dNK-PM-vu3">
+            <objects>
+                <viewController id="JQU-Kk-bk7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="w8X-ca-j5E"/>
+                        <viewControllerLayoutGuide type="bottom" id="HdV-Up-iBf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0jY-Cy-Fhh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="不好說不好說" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QWE-jj-A1i">
+                                <frame key="frameInset" minX="139" minY="172" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdi-5p-u5a">
+                                <frame key="frameInset" minX="67" height="320" maxX="68" maxY="96"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <connections>
+                                    <segue destination="bCv-na-6op" kind="embed" id="vby-eg-Qbj"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="政客" id="8Hv-jh-qEF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g0b-ck-nim" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="157.59999999999999" y="1051.1244377811095"/>
+        </scene>
+        <!--民進黨-->
+        <scene sceneID="xfl-Iv-EUt">
+            <objects>
+                <viewController id="ggY-y9-4kz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Iyg-nY-wcm"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Ig-re-ZcS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TlU-Kk-6bW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="民進黨" id="OS7-TL-9q6">
+                        <barButtonItem key="rightBarButtonItem" title="投票" id="iEE-Sj-Ond">
+                            <connections>
+                                <segue destination="7eN-to-tWH" kind="show" id="JwV-0m-Kk2"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2DZ-2u-pq8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="932" y="1052"/>
+        </scene>
+        <!--親民黨-->
+        <scene sceneID="EKp-gQ-B9D">
+            <objects>
+                <viewController id="TRR-sv-Gpq" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XyF-8t-L8h"/>
+                        <viewControllerLayoutGuide type="bottom" id="zEw-Th-wfH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lqs-N5-NbT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="親民黨" id="Mm0-W0-yCR">
+                        <barButtonItem key="rightBarButtonItem" title="投票" id="AYE-Tk-WD5">
+                            <connections>
+                                <segue destination="7eN-to-tWH" kind="show" id="qmI-6D-86u"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AYF-yi-QAj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1748" y="1052"/>
+        </scene>
+        <!--還要投是不是-->
+        <scene sceneID="ffO-fk-4Ob">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="7eN-to-tWH" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9QH-zb-bIi"/>
+                        <viewControllerLayoutGuide type="bottom" id="2cE-7n-kko"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pe0-jt-Qbb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gry-G3-Qxx">
+                                <frame key="frameInset" minX="247" minY="161" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="我真的要投票">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qtm-Gn-wVW" kind="show" id="rTM-hq-ExP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7XG-D6-vFH">
+                                <frame key="frameInset" minX="166" minY="271" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="87" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QsY-Zg-cNA">
+                                <frame key="frameInset" minX="177" minY="286" width="20" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="還要投是不是" id="4Pp-PW-khe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dCu-HV-J6v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2533.5999999999999" y="1051.1244377811095"/>
+        </scene>
+        <!--ABC-->
+        <scene sceneID="CnK-ui-jlr">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="123" storyboardName="Storyboard3" referencedIdentifier="ABC" id="qtm-Gn-wVW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ubz-hy-buV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3118" y="982"/>
+        </scene>
+        <!--政黨-->
+        <scene sceneID="4Kp-GO-vKv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Hvt-KF-tfv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="政黨" id="8c5-iE-Lyt"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dJA-Wn-nY6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="RZY-Oq-6eV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LLt-4b-YKy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1123.1884057971015" y="381.52173913043481"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="43G-Ey-FWC">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ZWo-zu-EgP" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="YXl-Bh-6BV">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Hvt-KF-tfv" kind="relationship" relationship="viewControllers" id="hlT-IQ-q2C"/>
+                        <segue destination="JQU-Kk-bk7" kind="relationship" relationship="viewControllers" id="1uN-Fw-sva"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tAf-Dz-CLe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="312" y="382"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cPi-Y0-A55">
+            <objects>
+                <viewController id="bCv-na-6op" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J6Y-Pv-LDW"/>
+                        <viewControllerLayoutGuide type="bottom" id="XKZ-de-P7D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GMs-rP-k4e">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="頻果好吃" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hp1-Gs-rJy">
+                                <frame key="frameInset" minX="85" minY="80" width="70" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.61688389030000002" green="1" blue="0.1802781722" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YmA-94-UDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.59999999999999" y="-144.82758620689657"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="JwV-0m-Kk2"/>
+    </inferredMetricsTieBreakers>
+</document>
